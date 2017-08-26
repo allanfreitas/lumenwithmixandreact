@@ -23,6 +23,8 @@ $app = new Laravel\Lumen\Application(
     realpath(__DIR__.'/../')
 );
 
+require_once __DIR__.'/helpers.php';
+
 // $app->withFacades();
 
 // $app->withEloquent();
